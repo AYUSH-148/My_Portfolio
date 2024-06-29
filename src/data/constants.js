@@ -260,7 +260,7 @@ export const projects = [
     ],
   },
   {
-    id: 8,
+    id: 2,
     title: "Ecommerce",
     date: "Jan 2021",
     description:
@@ -280,12 +280,32 @@ export const projects = [
       }, 
     ],
   },
+  {
+    id: 3,
+    title: "Examify (OES)",
+    date: "Sep 2023",
+    description:
+      "The purpose of building the website is to provide a platform for conducting online examinations, allowing users to create, manage, and take exams remotely, streamlining the examination process, and enabling efficient assessment and evaluation. Idea of the project is copied from Institutes Examination structure.",
+    image:
+      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-05-15%20201801.png?raw=true",
+    tags: ["React Js","Redux" ,"Node","Express","MongoDB","ContextApi"],
+    category: "web app",
+    github: "https://github.com/AYUSH-148/OnlineExamination",
+    webapp: "https://online-examination-nine.vercel.app/",
+    member: [
+      {
+        name: "Ayush Negi",
+        img: "https://avatars.githubusercontent.com/u/139256944?v=4",
+        linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
+        github: "https://github.com/AYUSH-148/discord-clone",
+      }, 
+    ],
+  },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2022, text: "Started my journey" },
+  { year: 2023, text: "Worked as a freelance developer" },
+  { year: 2023, text: "Founded JavaScript Mastery ,CodeWithAntonio, CodeWithHarry" },
+  { year: 2024, text: "Shared my projects with the world" },
 ];
