@@ -168,14 +168,24 @@ export const experiences = [
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
     role: "Freelance as a Frontend Developer",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "May 2024 - June 2024",
+    company: "Flipr Inovations",
+    date: "Feb 2024 - April 2024",
     desc: "Working on Flipr Platforms, managing itd Website, and streamlining the process with controlled structure.",
     skills: [
       "React","Javascript","Bootstrap","Tailwind","Docker"
     ],
   },
-  
+  {
+    id: 1,
+    img: "https://d502jbuhuh9wk.cloudfront.net/logos/63877d7ae4b0715e599aa5a1.png?v=19",
+    role: "Web Developer Intern",
+    company: "Cloud Counselage Pvt. Ltd.",
+    date: "June 2024 - July 2024",
+    desc: "Working on Cloud COunselage, created a Web App which stores the data of all the IT and management colleges in India using MERN",
+    skills: [
+      "React","Javascript","Tailwind","Scrapy","Render"
+    ],
+  },
    
  
   
@@ -240,17 +250,17 @@ export const projects = [
  
 
   {
-    id: 1,
-    title: "Breaddit",
-    date: "Jan 2024 - Feb 2024",
+    id: 4,
+    title: "Yondro's BLog",
+    date: "May 2024 - June 2024",
     description:
-      "It is a social news aggregation and discussion website. Users can submit content, such as text posts, links, and images, which are then voted up or down by other users. Content is organized into user-created communities called ”subreddits,” each focused on a specific topic or interest.",
+      "With dynamic pages and a sleek interface, users can explore and interact with content effortlessly. Our Blog App offers robust authentication for secure access and a dedicated admin dashboard where admins can efficiently manage posts, comments, and users. The app boasts advanced search functionality, allowing users to search by title, limit results, and sort through an intuitive sidebar. Users can actively participate in the community by leaving, editing, and deleting comments on post pages. The fully responsive design ensures an optimal experience across all devices, and the sleek dark mode caters to different user preferences.",
     image:
-      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-06-03%20220420.png?raw=true",
-    tags: ["Next Js", "MySql", "Prisma", "Shadcn/ui", "React-Query" ,"EditorJs"],
+      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-07-12%20104120.png?raw=true",
+    tags: ["ReactJs", "MongoDB","Flowbite", "Node/Express" ,"React-Quill","Firebase"],
     category: "web app",
-    github: "https://github.com/AYUSH-148/Breadit",
-    webapp: "https://breadit-1.onrender.com/",
+    github: "https://github.com/AYUSH-148/Yondro-s-Blog",
+    webapp: "https://yondro-s-blog.onrender.com/",
     member: [
       {
         name: "Ayush Negi",
