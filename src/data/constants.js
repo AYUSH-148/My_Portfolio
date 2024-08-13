@@ -1,9 +1,10 @@
 export const Bio = {
   name: "Ayush Negi",
   roles: [
+    "Programmer",
     "Full Stack Developer",
     "Nextjs Developer",
-    "Programmer",
+   
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -167,14 +168,24 @@ export const experiences = [
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
     role: "Freelance as a Frontend Developer",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "May 2024 - June 2024",
+    company: "Flipr Inovations",
+    date: "Feb 2024 - April 2024",
     desc: "Working on Flipr Platforms, managing itd Website, and streamlining the process with controlled structure.",
     skills: [
       "React","Javascript","Bootstrap","Tailwind","Docker"
     ],
   },
-  
+  {
+    id: 1,
+    img: "https://d502jbuhuh9wk.cloudfront.net/logos/63877d7ae4b0715e599aa5a1.png?v=19",
+    role: "Web Developer Intern",
+    company: "Cloud Counselage Pvt. Ltd.",
+    date: "June 2024 - July 2024",
+    desc: "Working on Cloud COunselage, created a Web App which stores the data of all the IT and management colleges in India using MERN",
+    skills: [
+      "React","Javascript","Tailwind","Scrapy","Render"
+    ],
+  },
    
  
   
