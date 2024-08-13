@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/AYUSH-148/",
   resume:
-    "https://drive.google.com/file/d/1bs30j5nLROaTPKmcCaxOX80r9Z-9_Vte/view?usp=sharing",
+    "https://drive.google.com/file/d/1C0RrrJvDjzhqXYY7SZZySpxdxtvd4vb5/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
   insta: "https://www.instagram.com/aayush_007/",
 };
@@ -213,8 +213,57 @@ export const education = [
 
 export const projects = [
    
+
   {
     id: 0,
+    title: "Threads",
+    date: "June 2024",
+    description:
+      " A threads app is a platform for real-time communication, allowing users to create and participate in conversation threads.",
+    image:
+      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-08-13%20224810.png?raw=true",
+    tags: ["Next js, MoongoDb, Clerk, shadcn-ui"],
+    category: "web app",
+    github: "https://github.com/AYUSH-148/threads",
+    webapp: "https://threads-mauve-one.vercel.app/",
+    member: [
+      {
+        name: "Ayush Negi",
+        img: "https://avatars.githubusercontent.com/u/139256944?v=4",
+        linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
+        github: "https://github.com/AYUSH-148/discord-clone",
+      }, 
+     
+    ],
+  },
+  {
+    id: 1,
+    title: "College Hub",
+    date: "Jul 2024",
+    description:
+      "  This project aims to provide a comprehensive and easily navigable platform for prospective students to find colleges in India offering IT and Management courses, ensuring data accuracy and up-to-date information through regular webscraping.",
+    image:
+      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-08-13%20230339.png?raw=true",
+    tags: ["React, MongoDb, Redux, Node/Express"],
+    category: "web app",
+    github: "https://github.com/AYUSH-148/threads",
+    webapp: "https://threads-mauve-one.vercel.app/",
+    member: [
+      {
+        name: "Ayush Negi",
+        img: "https://avatars.githubusercontent.com/u/139256944?v=4",
+        linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
+        github: "https://github.com/AYUSH-148/discord-clone",
+      }, 
+      {
+        name: "Cloud Counselage",
+        img: "https://d502jbuhuh9wk.cloudfront.net/logos/63877d7ae4b0715e599aa5a1.png?v=19",
+      
+      }, 
+    ],
+  },
+  {
+    id: 2,
     title: "TalkNet",
     date: "Dec 2023 - jan 2024",
     description:
@@ -235,32 +284,29 @@ export const projects = [
      
     ],
   },
-  
- 
-
   {
-    id: 1,
-    title: "Breaddit",
-    date: "Jan 2024 - Feb 2024",
+    id: 3,
+    title: "FriendZone (Chatt app)",
+    date: "Mar 2024",
     description:
-      "It is a social news aggregation and discussion website. Users can submit content, such as text posts, links, and images, which are then voted up or down by other users. Content is organized into user-created communities called ”subreddits,” each focused on a specific topic or interest.",
+      "Arealt-time chat app build using pusher and redis.",
     image:
-      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-06-03%20220420.png?raw=true",
-    tags: ["Next Js", "MySql", "Prisma", "Shadcn/ui", "React-Query" ,"EditorJs"],
+      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-08-13%20224110.png?raw=true",
+    tags: ["Next js","Redis" ,"Pusher" ,"Tailwind"],
     category: "web app",
-    github: "https://github.com/AYUSH-148/Breadit",
-    webapp: "https://breadit-1.onrender.com/",
+    github: "https://github.com/AYUSH-148/RealTime_ChatApp",
+    webapp: "https://real-time-chat-app-hazel-three.vercel.app/",
     member: [
       {
         name: "Ayush Negi",
         img: "https://avatars.githubusercontent.com/u/139256944?v=4",
         linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
-        github: "https://github.com/AYUSH-148/Breadit",
+        github: "https://github.com/AYUSH-148/discord-clone",
       }, 
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Ecommerce",
     date: "Jan 2021",
     description:
@@ -280,27 +326,7 @@ export const projects = [
       }, 
     ],
   },
-  {
-    id: 3,
-    title: "Examify (OES)",
-    date: "Sep 2023",
-    description:
-      "The purpose of building the website is to provide a platform for conducting online examinations, allowing users to create, manage, and take exams remotely, streamlining the examination process, and enabling efficient assessment and evaluation. Idea of the project is copied from Institutes Examination structure.",
-    image:
-      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-05-15%20201801.png?raw=true",
-    tags: ["React Js","Redux" ,"Node","Express","MongoDB","ContextApi"],
-    category: "web app",
-    github: "https://github.com/AYUSH-148/OnlineExamination",
-    webapp: "https://online-examination-nine.vercel.app/",
-    member: [
-      {
-        name: "Ayush Negi",
-        img: "https://avatars.githubusercontent.com/u/139256944?v=4",
-        linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
-        github: "https://github.com/AYUSH-148/discord-clone",
-      }, 
-    ],
-  },
+ 
 ];
 
 export const TimeLineData = [
