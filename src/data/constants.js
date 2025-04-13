@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/AYUSH-148/",
   resume:
-    "https://drive.google.com/file/d/1C0RrrJvDjzhqXYY7SZZySpxdxtvd4vb5/view?usp=sharing",
+    "https://drive.google.com/file/d/1Rbj35EWBEyA6Jl97YnV6KRGHDeLEWOm-/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
   insta: "https://www.instagram.com/aayush_007/",
 };
@@ -186,7 +186,17 @@ export const experiences = [
       "React","Javascript","Tailwind","Scrapy","Render"
     ],
   },
-   
+  {
+    id: 2,
+    img: "https://imgs.search.brave.com/jAdjmqxG8C4dZ-LGtuR3NVHfWnU8_tG78FqxOX_qvKw/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTcxMzZhODg2/ZmNlZmM4NjkwNjNl/NDdkZTk2YTY5ZmMy/N2I3NWQ0NGNiMTc4/NDg0ZTRjM2U3M2Yz/MTEzNmZlYy9wcm9m/aW1hdGl4LmNvbS8",
+    role: "Full Stack Next.js Intern",
+    company: "Profimatix",
+    date: "Oct 2024 - Dec 2024",
+    desc: "Developed an AI Sales Copilot using Recall.ai, a transcriber, and AWS S3 for call data storage.",
+    skills: [
+      "Next.js","Typescript","Tailwind","AWS S3","Clerk", "Recall.AI"
+    ],
+  }
  
   
  
@@ -198,7 +208,7 @@ export const education = [
     img: "https://imgs.search.brave.com/YRbW9et1as2nJdk2Q-CwUXyJ3e19eGd8Fr5WVRldCiI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/Yi9iMy9BdGFsX0Jp/aGFyaV9WYWpwYXll/ZV9JbmRpYW5fSW5z/dGl0dXRlX29mX0lu/Zm9ybWF0aW9uX1Rl/Y2hub2xvZ3lfYW5k/X01hbmFnZW1lbnQl/MkNfR3dhbGlvcl9s/b2dvLmpwZy81MTJw/eC1BdGFsX0JpaGFy/aV9WYWpwYXllZV9J/bmRpYW5fSW5zdGl0/dXRlX29mX0luZm9y/bWF0aW9uX1RlY2hu/b2xvZ3lfYW5kX01h/bmFnZW1lbnQlMkNf/R3dhbGlvcl9sb2dv/LmpwZw",
     school: "Indian Institute of Information Technlogy and Management, Gwalior",
     date: "Nov 2022 - July 2027",
-    grade: "7.55 CGPA",
+    grade: "7.70 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Information Technology at Abv - Indian Institute of Information Technlogy and Management, Gwalior, Bhubaneswar. I have completed 4 semesters and have a CGPA of 7.55. I have learned  Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. ",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
