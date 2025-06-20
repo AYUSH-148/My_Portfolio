@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/AYUSH-148/",
   resume:
-    "https://drive.google.com/file/d/1oS93Lc-luFE_GAXE5tc0P7Q9QCN4Y-MM/view?usp=sharing",
+    "https://drive.google.com/file/d/1rof2iKVi-bqLRtosWh4_iuEXj92Ggs-5/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
   insta: "https://www.instagram.com/aayush_007/",
 };
@@ -303,27 +303,6 @@ export const projects = [
         github: "https://github.com/AYUSH-148/discord-clone",
       },
      
-    ],
-  },
-  {
-    id: 3,
-    title: "FriendZone (Chatt app)",
-    date: "Mar 2024",
-    description:
-      "Arealt-time chat app build using pusher and redis.",
-    image:
-      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-08-13%20224110.png?raw=true",
-    tags: ["Next js","Redis" ,"Pusher" ,"Tailwind"],
-    category: "web app",
-    github: "https://github.com/AYUSH-148/RealTime_ChatApp",
-    webapp: "https://real-time-chat-app-hazel-three.vercel.app/",
-    member: [
-      {
-        name: "Ayush Negi",
-        img: "https://avatars.githubusercontent.com/u/139256944?v=4",
-        linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
-        github: "https://github.com/AYUSH-148/discord-clone",
-      }, 
     ],
   },
   {
