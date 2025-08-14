@@ -25,11 +25,6 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
-      {
         name: "Next Js",
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
@@ -59,13 +54,7 @@ export const skills = [
         name: "Shadcn/ui",
         image:
           "https://seeklogo.com/images/S/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png?v=638421451470000000",
-      },
-      {
-        name: "Flowbite",
-        image:
-          "https://imgs.search.brave.com/NuQN8qrBZXAH8JMHrDYMKuFIek5LSrcx2dPjB2x-QuM/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMTIxMjY1YWRi/MTRkOWFiMjFmODk4/YjM1OTlmMTgzNDE2/NzdlNDY0ZGQyMGRl/YTVlMTJhZmM2ZDk4/ODhmYzdjNi9mbG93/Yml0ZS5jb20v",
-      },
-      
+      },    
     ],
   },
   {
@@ -135,11 +124,6 @@ export const skills = [
           "https://imgs.search.brave.com/BNSQrXn2bmeJXUV454rdF3_0T8nAzszmcKdxq9LZbwQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZDQ5YzljMTg4/MmJjMjJkYzEzMWZi/YmYyODM3ZjEyYzEw/MjY5OWFlM2I5YTY1/YmZhNTJlY2EwM2Iz/N2RhMWIxOC92ZXJj/ZWwuY29tLw",
       },
       {
-        name: "Render",
-        image:
-          "https://imgs.search.brave.com/iUIiF_cAk0r_1kJIy86Pm60sPFTqbGRgFliHYBjXTUA/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyYjU4ODU5/NGVkMzFhYTA3Mzg3/N2UwZjZjNzQ3ZTc0/MjE2NmU3YjhlZWNi/MGFjNWRjYTJmNjA5/NjdhMzQ3Mi9yZW5k/ZXIuY29tLw",
-      },
-      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -148,11 +132,6 @@ export const skills = [
         name: "Postman",
         image:
           "https://imgs.search.brave.com/6aVW64lywy3pCZ92XZZWT4x2dCJZAfThpPqiODIo7gI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jb21t/dW5pdHkuY2hvY29s/YXRleS5vcmcvY29u/dGVudC9wYWNrYWdl/aW1hZ2VzL3Bvc3Rt/YW4uMTEuMS4wLnBu/Zw",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://imgs.search.brave.com/1eVxRXPc_Z0OfT7PKWUnXwyQVS9SGaesrxbw3_f9p4g/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8zLzMzL0Zp/Z21hLWxvZ28uc3Zn/LzIyMHB4LUZpZ21h/LWxvZ28uc3ZnLnBu/Zw",
       },
       {
         name: "Canva",
@@ -285,16 +264,16 @@ export const projects = [
   },
   {
     id: 2,
-    title: "TalkNet",
+    title: "PennyWise",
     date: "Dec 2023 - jan 2024",
     description:
-      "The primary objective behind developing this website is to replicate the functionality of Discord, offering users a platform for real-time communication and collaboration. Used WebSockets to enable real-time communication. Used LiveKit.io for video and audio communications and Clerk app for authentication",
+      "A multi-account Finance‑Tracker web app supporting categorized transactions (e.g., food, utilities, subscriptions) with visualization charts—achieving >95% retained accuracy in category classification and reducing manual input time through AI-powered OCR bill scanning.",
     image:
-      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-06-29%20125432.png?raw=true",
-    tags: ["Next Js", "PostgreSql", "Prisma", "Shadcn/ui", "Socket.io"],
+      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-08-14%20233145.png?raw=true",
+    tags: ["React Js", "MySql", "Prisma","Srcjet","Inngest", "Socket.io"],
     category: "web app",
-    github: "https://github.com/AYUSH-148/discord-clone",
-    webapp: "https://discord-clone-nu-pink.vercel.app/",
+    github: "https://github.com/AYUSH-148/Finance-Tracker",
+    webapp: "https://finance-tracker-coral-theta.vercel.app/",
     member: [
       {
         name: "Ayush Negi",
@@ -307,26 +286,43 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Ecommerce",
-    date: "Jan 2021",
+    title: "DNS Query Analyser",
+    date: "June 2025",
     description:
-      "It is a shopping website with an Admin dashboard. It is my first full-fledged project which I made while learning React. This project is not very UI friendly but it helped me learn a lot.",
+      "Instantly monitor and visualize DNS traffic by protocol, domain, client activity, and response codes across multiple network interfaces—empowering rapid detection of threats, suspicious domains, and failed queries in real time. ",
     image:
-      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-06-29%20132507.png?raw=true",
-    tags: ["React Js","Redux" ,"Node","Express","MongoDB","Chartjs", "Stripe"],
-    category: "web app",
-    github: "https://github.com/AYUSH-148/Ecommerce",
-    webapp: "https://ecommerce-lovat-two.vercel.app/",
-    member: [
-      {
-        name: "Ayush Negi",
-        img: "https://avatars.githubusercontent.com/u/139256944?v=4",
-        linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
-        github: "https://github.com/AYUSH-148/discord-clone",
-      }, 
-    ],
+      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-08-14%20234211.png?raw=true",
+    tags: ["Python","Scapy","Npcap","Flask"],
+    category: "Computer Networks",
+    github: "https://github.com/AYUSH-148/DNS-Query-Parser",
+    webapp: "",
   },
- 
+  {
+    id: 4,
+    title: "FriendZone",
+    date: "Dec 2024",
+    description:
+      "A real-time application with friend request and messaging features using WebSockets via Pusher for instant communication, and Redis for both data storage and caching to ensure low-latency message delivery.  ",
+    image:
+      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-08-14%20234722.png?raw=true",
+    tags: ["Next.js, Redis, Pusher"],
+    category: "",
+    github: "https://github.com/AYUSH-148/RealTime_ChatApp",
+    webapp: "https://friendzone-chatt.vercel.app",
+  },
+ {
+    id: 5,
+    title: "Metro Route Finder",
+    date: "July 2025",
+    description:
+      "Interactive metro navigation system leveraging Dijkstra's algorithm, displaying optimal routes, transfer locations, and fare estimations, enhancing user trip planning efficiency. ",
+    image:
+      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-08-15%20000119.png?raw=true",
+    tags: ["Algorithms and Optimizations","Dijkstra's algorithm"],
+    category: "DSA",
+    github: "https://github.com/AYUSH-148/Metro-Route/",
+    webapp: "https://themetroroute.vercel.app/",
+  },
 ];
 
 export const TimeLineData = [
