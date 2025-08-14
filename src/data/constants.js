@@ -236,6 +236,32 @@ export const projects = [
      
     ],
   },
+   {
+    id: 4,
+    title: "FriendZone",
+    date: "Dec 2024",
+    description:
+      "A real-time application with friend request and messaging features using WebSockets via Pusher for instant communication, and Redis for both data storage and caching to ensure low-latency message delivery.  ",
+    image:
+      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-08-14%20234722.png?raw=true",
+    tags: ["Next.js, Redis, Pusher"],
+    category: "",
+    github: "https://github.com/AYUSH-148/RealTime_ChatApp",
+    webapp: "https://friendzone-chatt.vercel.app",
+  },
+   {
+    id: 3,
+    title: "DNS Query Analyser",
+    date: "June 2025",
+    description:
+      "Instantly monitor and visualize DNS traffic by protocol, domain, client activity, and response codes across multiple network interfaces—empowering rapid detection of threats, suspicious domains, and failed queries in real time. ",
+    image:
+      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-08-14%20234211.png?raw=true",
+    tags: ["Python","Scapy","Npcap","Flask"],
+    category: "Computer Networks",
+    github: "https://github.com/AYUSH-148/DNS-Query-Parser",
+    webapp: "",
+  },
   {
     id: 1,
     title: "College Hub",
@@ -284,32 +310,8 @@ export const projects = [
      
     ],
   },
-  {
-    id: 3,
-    title: "DNS Query Analyser",
-    date: "June 2025",
-    description:
-      "Instantly monitor and visualize DNS traffic by protocol, domain, client activity, and response codes across multiple network interfaces—empowering rapid detection of threats, suspicious domains, and failed queries in real time. ",
-    image:
-      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-08-14%20234211.png?raw=true",
-    tags: ["Python","Scapy","Npcap","Flask"],
-    category: "Computer Networks",
-    github: "https://github.com/AYUSH-148/DNS-Query-Parser",
-    webapp: "",
-  },
-  {
-    id: 4,
-    title: "FriendZone",
-    date: "Dec 2024",
-    description:
-      "A real-time application with friend request and messaging features using WebSockets via Pusher for instant communication, and Redis for both data storage and caching to ensure low-latency message delivery.  ",
-    image:
-      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-08-14%20234722.png?raw=true",
-    tags: ["Next.js, Redis, Pusher"],
-    category: "",
-    github: "https://github.com/AYUSH-148/RealTime_ChatApp",
-    webapp: "https://friendzone-chatt.vercel.app",
-  },
+ 
+ 
  {
     id: 5,
     title: "Metro Route Finder",
