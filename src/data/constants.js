@@ -247,7 +247,7 @@ export const projects = [
     tags: ["React, MongoDb, Redux, Web Scraping"],
     category: "web app",
     github: "https://github.com/AYUSH-148/IT_AND_MANAG-Database",
-    webapp: "it-and-manag-database.vercel.app",
+    webapp: "https://it-and-manag-database.vercel.app/",
     member: [
       {
         name: "Cloud Counselage",
