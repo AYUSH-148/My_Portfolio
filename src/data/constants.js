@@ -262,32 +262,7 @@ export const projects = [
     github: "https://github.com/AYUSH-148/DNS-Query-Parser",
     webapp: "",
   },
-  {
-    id: 1,
-    title: "College Hub",
-    date: "Jul 2024",
-    description:
-      "  This project aims to provide a comprehensive and easily navigable platform for prospective students to find colleges in India offering IT and Management courses, ensuring data accuracy and up-to-date information through regular webscraping.",
-    image:
-      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-08-13%20230339.png?raw=true",
-    tags: ["React, MongoDb, Redux, Node/Express"],
-    category: "web app",
-    github: "https://github.com/AYUSH-148/threads",
-    webapp: "https://threads-mauve-one.vercel.app/",
-    member: [
-      {
-        name: "Ayush Negi",
-        img: "https://avatars.githubusercontent.com/u/139256944?v=4",
-        linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
-        github: "https://github.com/AYUSH-148/discord-clone",
-      }, 
-      {
-        name: "Cloud Counselage",
-        img: "https://d502jbuhuh9wk.cloudfront.net/logos/63877d7ae4b0715e599aa5a1.png?v=19",
-      
-      }, 
-    ],
-  },
+
   {
     id: 2,
     title: "PennyWise",
