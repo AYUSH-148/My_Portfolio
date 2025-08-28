@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/AYUSH-148/",
   resume:
-    "https://drive.google.com/file/d/1o4vSdcJ5jCbF3uZxsQuMyFsy6TDxjNHA/view?usp=sharing",
+    "https://drive.google.com/file/d/14hylggaKkUirusKGfJOMNK0tk5s0NR2d/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
   insta: "https://www.instagram.com/aayush_007/",
 };
@@ -187,7 +187,7 @@ export const education = [
     img: "https://imgs.search.brave.com/YRbW9et1as2nJdk2Q-CwUXyJ3e19eGd8Fr5WVRldCiI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/Yi9iMy9BdGFsX0Jp/aGFyaV9WYWpwYXll/ZV9JbmRpYW5fSW5z/dGl0dXRlX29mX0lu/Zm9ybWF0aW9uX1Rl/Y2hub2xvZ3lfYW5k/X01hbmFnZW1lbnQl/MkNfR3dhbGlvcl9s/b2dvLmpwZy81MTJw/eC1BdGFsX0JpaGFy/aV9WYWpwYXllZV9J/bmRpYW5fSW5zdGl0/dXRlX29mX0luZm9y/bWF0aW9uX1RlY2hu/b2xvZ3lfYW5kX01h/bmFnZW1lbnQlMkNf/R3dhbGlvcl9sb2dv/LmpwZw",
     school: "Indian Institute of Information Technlogy and Management, Gwalior",
     date: "Nov 2022 - July 2027",
-    grade: "7.70 CGPA",
+    grade: "7.85 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Information Technology at Abv - Indian Institute of Information Technlogy and Management, Gwalior, Bhubaneswar. I have completed 4 semesters and have a CGPA of 7.55. I have learned  Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. ",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
@@ -196,18 +196,9 @@ export const education = [
     img: "https://imgs.search.brave.com/TT6LKXUW8GjrtBcl3ZbJa3iuIT17YFpLd4YLs8Irr2I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMzVkYWUxNWM4/Zjg4YTk5ZjI3YmU5/YzVmMzM3NGE1Y2Zj/NmVkYThjM2E2M2E2/ZDMwYmExNDhhNTY4/NTIxMTczNS9kZXdh/bnB1YmxpY3NjaG9v/bG1lZXJ1dC5vcmcv",
     school: "Dewan Public School, Meerut",
     date: "Apr 2021 - Apr 2022",
-    grade: "96%",
+    grade: "95%",
     desc: "I completed my class 12 high school education at Dewan Public School, Meerut, where I studied Science with Computer Science.",
     degree: "CBSE(XII), Science with Computer",
-  },
-  {
-    id: 2,
-    img: "https://imgs.search.brave.com/TT6LKXUW8GjrtBcl3ZbJa3iuIT17YFpLd4YLs8Irr2I/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMzVkYWUxNWM4/Zjg4YTk5ZjI3YmU5/YzVmMzM3NGE1Y2Zj/NmVkYThjM2E2M2E2/ZDMwYmExNDhhNTY4/NTIxMTczNS9kZXdh/bnB1YmxpY3NjaG9v/bG1lZXJ1dC5vcmcv",
-    school: "Dewan Public School, Meerut",
-    date: "Apr 2019 - Apr 2020",
-    grade: "94%",
-    desc: "I completed my class 10 education at Dewan Public School, Meerut, where I studied Science with Computer Application.",
-    degree: "CBSE(X), Science with Computer",
   },
 ];
 
@@ -256,6 +247,19 @@ export const projects = [
       }, 
     ],
   },
+  {
+    id: 3,
+    title: "DNS Query Analyser",
+    date: "June 2025",
+    description:
+      "Delivers actionable cybersecurity intelligence by continuously monitoring DNS traffic, enabling the immediate identification of malicious domains, anomalous client behavior, and critical query failures in real time.",
+    image:
+      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-08-14%20234211.png?raw=true",
+    tags: ["Python","Scapy","Npcap","Flask","Docker"],
+    category: "Computer Networks",
+    github: "https://github.com/AYUSH-148/DNS-Query-Parser",
+    webapp: "",
+  },
    {
     id: 4,
     title: "FriendZone",
@@ -269,19 +273,7 @@ export const projects = [
     github: "https://github.com/AYUSH-148/RealTime_ChatApp",
     webapp: "https://friendzone-chatt.vercel.app",
   },
-   {
-    id: 3,
-    title: "DNS Query Analyser",
-    date: "June 2025",
-    description:
-      "Instantly monitor and visualize DNS traffic by protocol, domain, client activity, and response codes across multiple network interfaces—empowering rapid detection of threats, suspicious domains, and failed queries in real time. ",
-    image:
-      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-08-14%20234211.png?raw=true",
-    tags: ["Python","Scapy","Npcap","Flask"],
-    category: "Computer Networks",
-    github: "https://github.com/AYUSH-148/DNS-Query-Parser",
-    webapp: "",
-  },
+   
 
   {
     id: 2,
