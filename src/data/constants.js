@@ -252,11 +252,10 @@ export const projects = [
     title: "MediFlow Assistant",
     date: "Jul 2025",
     description:
-      "  MediFlow Assistant is a cutting-edge medical intelligence application that uses Google Gemini, Pinecone, Hugging Face, and Next.js to help users understand their medical reports. Upload PDFs or images → extract key medical information → ask questions → get accurate, personalized answers powered by Retrieval Augmented Generation (RAG).
-      ",
+      "  MediFlow Assistant is a cutting-edge medical intelligence application that uses Google Gemini, Pinecone, Hugging Face, and Next.js to help users understand their medical reports. Upload PDFs or images → extract key medical information → ask questions → get accurate, personalized answers powered by Retrieval Augmented Generation (RAG).",
     image:
       "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-11-20%20172648.png?raw=true",
-    tags: ["RAG, Pinecone, Hugging Face, Vercel AI SDK"],
+    tags: ["RAG", "Pinecone", "Hugging Face", "Vercel AI SDK"],
     category: "AI powered web app",
     github: "hhttps://github.com/AYUSH-148/MediFlow-Assistant/e",
     webapp: "https://medi-flow-assistant.vercel.app",
@@ -283,7 +282,7 @@ export const projects = [
       "A real-time application with friend request and messaging features using WebSockets via Pusher for instant communication, and Redis for both data storage and caching to ensure low-latency message delivery.  ",
     image:
       "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-08-14%20234722.png?raw=true",
-    tags: ["Next.js, Redis, Pusher"],
+    tags: ["Next.js", "Redis", "Pusher"],
     category: "",
     github: "https://github.com/AYUSH-148/RealTime_ChatApp",
     webapp: "https://friendzone-chatt.vercel.app",
