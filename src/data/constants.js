@@ -233,7 +233,7 @@ export const skills = [
 export const experiences = [
  {
     id: 0,
-    img: "https://coinswitch.co/_next/static/media/logo.bb8c9a54.svg",
+    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAflBMVEVHcEwTExoSExkSExkSExkSExkSEhkSExkSExkRAREPChQSKCUZfk8coGIfvnMSGhwYTj8eaVIbkFkhzXsgyXkebVYSExketm4gxnciNjISExkSExkXYkAZW0MAAANBQkXJycru7u/j4+Swr7FycnT///+WlpdSUlUSExkSExkmdrWqAAAAKnRSTlMAEGqy4aT/+yf/////////////////fv///8Xv////////////////hEMk4VbVAAABE0lEQVR4AXXSVaLDIBRFUWqnhXigRl7d5z/Bxy03NLp/IisKCN9kOpuHZtOJaLQAsATFO4tAKwy0Greg4KSUUNKnAJDNmKI4SbO88OVOZ0JM2EptjM7ytY8QE7HxuNW73U5n+yZuhCWSW7P7oiwaaEVFFuudR7VvYCVAaHaMkPkPQSj/dEDWBpYmIP3ToYVJA9XRFUUYwuPpfLnecPxhHPB4f3zbqxpVrmvMHr7rsUbI1Hg8Ph/cSRFWhAfNeKvxfqRBsDzsnTtfDq14g9U4xJ7t4gzveh3IfKuNzujW+kZaC9arkvu4zHC8Xx+P84nMijDbxBLAkVJwTYTrg8E+ZKSDxk1sl2xzza/etlpylX3ziv4HoiMqEvcaptMAAAAASUVORK5CYII=",
     role: "Software Engineer",
     company: "Coinswitch",
     date: "Jan 2026 - July 2026",
