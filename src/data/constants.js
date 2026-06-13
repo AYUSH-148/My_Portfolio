@@ -2,15 +2,14 @@ export const Bio = {
   name: "Ayush Negi",
   roles: [
     "Programmer",
+    "Software Engineer"
     "Full Stack Developer",
-    "Nextjs Developer",
-   
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/AYUSH-148/",
   resume:
-    "https://drive.google.com/file/d/18sDPyXzTYZtnjt1nKBizZQzgFljeyA-9/view?usp=sharing",
+    "https://drive.google.com/file/d/1LCS5RaOxcoExxwQUZtmxkKKEsG344lXR/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
   insta: "https://www.instagram.com/aayush_007/",
 };
@@ -38,7 +37,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
-     
+      {
+        name: "Three.js",
+        image:
+          "https://s.yimg.com/zb/imgv1/f4a19ebc-4a07-38f1-b497-ea564ca643d1/t_500x300",
+      },
       {
         name: "TypeScript",
         image:
@@ -74,6 +77,14 @@ export const skills = [
         image: "https://imgs.search.brave.com/0XydAktjaqN0nORmaggM2VJsY1Tx1nJiVNuih_WpnBU/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYzAzNjQzNTY5/NTYzYTQyYzdmZmRl/ZTNiMzMwYWZhZTgw/MzQwN2JkMDg5NDcy/N2E3NzBkNDUxODIx/MWM3YWU5Mi9yZWRp/cy5pby8",
       },
       {
+        name: "gRPC",
+        image: "https://tse2.mm.bing.net/th/id/OIP.arCM2qXKl5Zfg7XtA0nrAAHaHa?pid=Api&P=0&h=180",
+      },
+      {
+        name: "Socket.io",
+        image: "https://s.yimg.com/zb/imgv1/a194d008-59d7-374c-b816-53c6e1174f9f/t_500x300",
+      },
+      {
         name: "Python",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
@@ -103,7 +114,88 @@ export const skills = [
       },
     ],
   },
-  
+{
+  title: "Cloud Technologies",
+  skills: [
+    {
+      name: "Cloud Networking",
+      image: "https://www.svgrepo.com/show/375531/cloud-network.svg",
+    },
+    {
+      name: "Linux Shell Scripting",
+      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg",
+    },
+    {
+      name: "AWS",
+      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    },
+    {
+      name: "Docker",
+      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+    },
+    {
+      name: "OpenTelemetry",
+      image: "https://raw.githubusercontent.com/cncf/artwork/main/projects/opentelemetry/icon/color/opentelemetry-icon-color.svg",
+    },
+    {
+      name: "ArgoCD",
+      image: "https://raw.githubusercontent.com/cncf/artwork/main/projects/argo/icon/color/argo-icon-color.svg",
+    },
+  ],
+},
+{
+  title: "Agentic AI & LLM Technologies",
+  skills: [
+    {
+      name: "LangChain",
+      image: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/langchain.svg",
+    },
+    {
+      name: "LangGraph",
+      image: "https://cdn.jsdelivr.net/npm/@thesvg/icons/icons/langgraph-langchain.svg",
+    },
+    {
+      name: "Model Context Protocol (MCP)",
+      image: "https://mintlify.s3.us-west-1.amazonaws.com/mcp/images/logo/light.svg",
+    },
+    {
+      name: "OpenAI",
+      image: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg",
+    },
+    {
+      name: "Google Gemini",
+      image: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlegemini.svg",
+    },
+    {
+      name: "Claude",
+      image: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/anthropic.svg",
+    },
+    {
+      name: "Pinecone",
+      image: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pinecone.svg",
+    },
+    {
+      name: "Neo4j",
+      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/neo4j/neo4j-original-wordmark.svg",
+    },
+    {
+      name: "Vector Databases",
+      image: "https://www.svgrepo.com/show/532353/database.svg",
+    },
+    {
+      name: "GraphRAG",
+      image: "https://www.svgrepo.com/show/532293/share-nodes.svg",
+    },
+    {
+      name: "RAG",
+      image: "https://www.svgrepo.com/show/532195/search-alt.svg",
+    },
+    {
+      name: "AI Agents",
+      image: "https://www.svgrepo.com/show/530445/robot.svg",
+    }
+  ]
+},
   {
     title: "Others",
     skills: [
@@ -113,11 +205,7 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
+      
       {
         name: "Vercel",
         image:
