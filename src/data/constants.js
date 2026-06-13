@@ -148,51 +148,51 @@ export const skills = [
   skills: [
     {
       name: "LangChain",
-      image: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/langchain.svg",
+      image: "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/langchain.svg",
     },
     {
       name: "LangGraph",
-      image: "https://cdn.jsdelivr.net/npm/@thesvg/icons/icons/langgraph-langchain.svg",
+      image: "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/langgraph.svg",
     },
     {
       name: "Model Context Protocol (MCP)",
-      image: "https://mintlify.s3.us-west-1.amazonaws.com/mcp/images/logo/light.svg",
+      image: "https://unpkg.com/@lobehub/icons-static-svg@latest/icons/mcp.svg",
     },
     {
       name: "OpenAI",
-      image: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg",
+      image: "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/openai.svg",
     },
     {
       name: "Google Gemini",
-      image: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlegemini.svg",
+      image: "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/googlegemini.svg",
     },
     {
       name: "Claude",
-      image: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/anthropic.svg",
+      image: "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/anthropic.svg",
     },
     {
       name: "Pinecone",
-      image: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pinecone.svg",
+      image: "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/pinecone.svg",
     },
     {
       name: "Neo4j",
-      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/neo4j/neo4j-original-wordmark.svg",
+      image: "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/neo4j.svg",
     },
     {
       name: "Vector Databases",
-      image: "https://www.svgrepo.com/show/532353/database.svg",
+      image: "https://cdn.jsdelivr.net/npm/@tabler/icons/icons/outline/database.svg",
     },
     {
       name: "GraphRAG",
-      image: "https://www.svgrepo.com/show/532293/share-nodes.svg",
+      image: "https://cdn.jsdelivr.net/npm/@tabler/icons/icons/outline/share.svg",
     },
     {
       name: "RAG",
-      image: "https://www.svgrepo.com/show/532195/search-alt.svg",
+      image: "https://cdn.jsdelivr.net/npm/@tabler/icons/icons/outline/search.svg",
     },
     {
       name: "AI Agents",
-      image: "https://www.svgrepo.com/show/530445/robot.svg",
+      image: "https://cdn.jsdelivr.net/npm/@tabler/icons/icons/outline/robot.svg",
     }
   ]
 },
@@ -231,19 +231,31 @@ export const skills = [
 ];
 
 export const experiences = [
-  {
+ {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Freelance as a Frontend Developer",
-    company: "Flipr Inovations",
-    date: "Feb 2024 - April 2024",
-    desc: "Working on Flipr Platforms, managing itd Website, and streamlining the process with controlled structure.",
+    img: "https://coinswitch.co/_next/static/media/logo.bb8c9a54.svg",
+    role: "Software Engineer",
+    company: "Coinswitch",
+    date: "Jan 2026 - July 2026",
+    desc: "Contributed to security and DevOps initiatives by developing Python-based automation and monitoring solutions to enforce repository security policies, streamline provisioning workflows, and generate real-time alerts for suspicious activities across Bitbucket infrastructure on AWS",
     skills: [
-      "React","Javascript","Bootstrap","Tailwind","Docker"
+      "Golang","Java","AWS","gRPC","ArgoCD", "Kibana"
+    ],
+  },
+  
+  {
+    id: 1,
+    img: "https://imgs.search.brave.com/jAdjmqxG8C4dZ-LGtuR3NVHfWnU8_tG78FqxOX_qvKw/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTcxMzZhODg2/ZmNlZmM4NjkwNjNl/NDdkZTk2YTY5ZmMy/N2I3NWQ0NGNiMTc4/NDg0ZTRjM2U3M2Yz/MTEzNmZlYy9wcm9m/aW1hdGl4LmNvbS8",
+    role: "Full Stack Next.js Intern",
+    company: "Profimatix",
+    date: "Oct 2024 - Dec 2024",
+    desc: "Developed an AI Sales Copilot using Recall.ai, a transcriber, and AWS S3 for call data storage.",
+    skills: [
+      "Next.js","Typescript","Tailwind","AWS S3","Clerk", "Recall.AI"
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://d502jbuhuh9wk.cloudfront.net/logos/63877d7ae4b0715e599aa5a1.png?v=19",
     role: "Web Developer Intern",
     company: "Cloud Counselage Pvt. Ltd.",
@@ -253,18 +265,6 @@ export const experiences = [
       "React","Javascript","Tailwind","Scrapy","Render"
     ],
   },
-  {
-    id: 2,
-    img: "https://imgs.search.brave.com/jAdjmqxG8C4dZ-LGtuR3NVHfWnU8_tG78FqxOX_qvKw/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNTcxMzZhODg2/ZmNlZmM4NjkwNjNl/NDdkZTk2YTY5ZmMy/N2I3NWQ0NGNiMTc4/NDg0ZTRjM2U3M2Yz/MTEzNmZlYy9wcm9m/aW1hdGl4LmNvbS8",
-    role: "Full Stack Next.js Intern",
-    company: "Profimatix",
-    date: "Oct 2024 - Dec 2024",
-    desc: "Developed an AI Sales Copilot using Recall.ai, a transcriber, and AWS S3 for call data storage.",
-    skills: [
-      "Next.js","Typescript","Tailwind","AWS S3","Clerk", "Recall.AI"
-    ],
-  }
- 
   
  
 ];
@@ -275,7 +275,7 @@ export const education = [
     img: "https://imgs.search.brave.com/YRbW9et1as2nJdk2Q-CwUXyJ3e19eGd8Fr5WVRldCiI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/Yi9iMy9BdGFsX0Jp/aGFyaV9WYWpwYXll/ZV9JbmRpYW5fSW5z/dGl0dXRlX29mX0lu/Zm9ybWF0aW9uX1Rl/Y2hub2xvZ3lfYW5k/X01hbmFnZW1lbnQl/MkNfR3dhbGlvcl9s/b2dvLmpwZy81MTJw/eC1BdGFsX0JpaGFy/aV9WYWpwYXllZV9J/bmRpYW5fSW5zdGl0/dXRlX29mX0luZm9y/bWF0aW9uX1RlY2hu/b2xvZ3lfYW5kX01h/bmFnZW1lbnQlMkNf/R3dhbGlvcl9sb2dv/LmpwZw",
     school: "Indian Institute of Information Technlogy and Management, Gwalior",
     date: "Nov 2022 - July 2027",
-    grade: "7.85 CGPA",
+    grade: "7.96 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Information Technology at Abv - Indian Institute of Information Technlogy and Management, Gwalior, Bhubaneswar. I have completed 4 semesters and have a CGPA of 7.55. I have learned  Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. ",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
