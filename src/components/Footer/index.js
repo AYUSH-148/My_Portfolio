@@ -1,8 +1,6 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import { FaGithub, FaLinkedin, FaMedium, FaInstagram } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -94,13 +92,15 @@ function Footer() {
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#achievements">Achievements</NavLink>
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="_blank" rel="noopener noreferrer" title="GitHub"><FaGithub /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="_blank" rel="noopener noreferrer" title="LinkedIn"><FaLinkedin /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.leetcode} target="_blank" rel="noopener noreferrer" title="LeetCode"><SiLeetcode /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.medium} target="_blank" rel="noopener noreferrer" title="Medium"><FaMedium /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.insta} target="_blank" rel="noopener noreferrer" title="Instagram"><FaInstagram /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 Ayush Negi. All rights reserved.

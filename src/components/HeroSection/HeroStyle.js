@@ -165,6 +165,33 @@ export const SubTitle = styled.div`
   }
 `;
 
+export const SocialLinks = styled.div`
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  @media (max-width: 960px) {
+    justify-content: center;
+  }
+`;
+
+export const SocialLink = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1.8px solid ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.primary};
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.white};
+    transform: translateY(-4px);
+  }
+`;
+
 export const ResumeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;

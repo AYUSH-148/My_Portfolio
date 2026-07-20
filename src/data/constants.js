@@ -13,7 +13,28 @@ export const Bio = {
     "https://drive.google.com/file/d/1LCS5RaOxcoExxwQUZtmxkKKEsG344lXR/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ayush-negi-300209257/",
   insta: "https://www.instagram.com/aayush_007/",
+  medium: "https://medium.com/@ayushpro111",
+  leetcode: "https://leetcode.com/u/ayyush_007/",
 };
+
+export const leetcodeStats = {
+  rating: 1933,
+  badge: "Knight",
+  globalRanking: "31,707",
+  totalUsers: "875,878",
+  contestsAttended: 16,
+  profile: "https://leetcode.com/u/ayyush_007/",
+};
+
+export const certifications = [
+  {
+    id: 0,
+    title: "Hacksagon Hackathon",
+    issuer: "2nd Position",
+    desc: "Secured 2nd position at Hacksagon, a national-level hackathon, for building an impactful project under time constraints.",
+    link: "https://drive.google.com/file/d/1sTK5Wlr2JArYlakTKhozQ0bUI_uftpHg/view?usp=sharing",
+  },
+];
 
 export const skills = [
   {

@@ -12,8 +12,8 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <div style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <div style={{ display: "flex", alignItems: "center", color: "white", cursor: 'pointer' }}>
+            <DiCssdeck size="3rem" /> <Span>{Bio.name}</Span>
           </div>
         </NavLogo>
         <MobileIcon>
@@ -26,6 +26,7 @@ const Navbar = () => {
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
+          <NavLink href='#achievements'>Achievements</NavLink>
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
         <ButtonContainer>
@@ -46,6 +47,9 @@ const Navbar = () => {
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>
+            <MobileLink href='#achievements' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Achievements</MobileLink>
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
