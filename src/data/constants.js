@@ -34,6 +34,13 @@ export const certifications = [
     desc: "Secured 2nd position at Hacksagon, a national-level hackathon, for building an impactful project under time constraints.",
     link: "https://drive.google.com/file/d/1sTK5Wlr2JArYlakTKhozQ0bUI_uftpHg/view?usp=sharing",
   },
+  {
+    id: 1,
+    title: "AWS Cloud Foundations and Core Infrastructure",
+    issuer: "Coursera",
+    desc: "Completed AWS cloud fundamentals covering core infrastructure services, compute, storage, networking, security, and the shared responsibility model.",
+    link: "https://drive.google.com/file/d/1jm5IKZh5mnWsNEJH03NBYFX5uECn7sqK/view?usp=sharing",
+  },
 ];
 
 export const skills = [
@@ -313,7 +320,19 @@ export const education = [
 ];
 
 export const projects = [
-   
+  {
+    id: 6,
+    title: "Self-Healing RAG – Hallucination-Reducing Agent",
+    date: "July 2026",
+    description:
+      "A self-healing RAG agent built in LangGraph that self-critiques and retries its own answers against retrieved context, cutting the hallucination rate from 5.9% to 0% and raising correct abstention from 80% to 100% versus a plain-RAG baseline. Ships a reproducible LLM eval pipeline in CI (GitHub Actions) using a deterministic hallucination metric over a 34-example golden set that automatically fails the build on any regression. Includes a fail-closed structured-output layer for an 8B local model (Ollama) with Pydantic-validated verdicts, an auto-repair retry loop, and a guardrails gateway blocking prompt injection and PII leakage — fully local at zero API cost.",
+    image:
+      "https://opengraph.githubassets.com/1/AYUSH-148/Self-healing-Rag",
+    tags: ["Python", "LangGraph", "Ollama", "Pydantic", "FastAPI"],
+    category: "AI agent",
+    github: "https://github.com/AYUSH-148/Self-healing-Rag",
+    webapp: "",
+  },
 
   {
     id: 0,
