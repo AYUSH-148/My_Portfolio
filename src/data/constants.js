@@ -321,6 +321,20 @@ export const education = [
 
 export const projects = [
   {
+    id: 7,
+    title: "DB Explorer MCP",
+    date: "Aug 2026",
+    description:
+      "A Model Context Protocol server that lets an AI coding assistant explore, query, and audit a relational database while making writes structurally impossible. The client's LLM authors the SQL; the server treats it as untrusted input and validates it against a sqlparse AST — single statement, SELECT only, no comments, keyword denylist — so a rejected query never reaches the driver, and every result set is row-capped. Exposes 7 FastMCP tools over stdio or streamable HTTP with OAuth 2.0: schema exploration, query execution, dialect-aware EXPLAIN plans, schema health checks, index suggestions, and migration review that parses up/down without executing it. Ships zero LLM dependencies and no API key — reasoning stays in the client — and works across PostgreSQL, MySQL, and SQLite through SQLAlchemy.",
+    image:
+      "https://opengraph.githubassets.com/1/AYUSH-148/DB-Explorer-MCP",
+    tags: ["Python", "MCP", "FastMCP", "SQLAlchemy", "sqlparse", "PostgreSQL"],
+    category: "AI tooling",
+    github: "https://github.com/AYUSH-148/DB-Explorer-MCP",
+    webapp: "",
+  },
+
+  {
     id: 6,
     title: "Self-Healing RAG – Hallucination-Reducing Agent",
     date: "July 2026",
@@ -336,16 +350,16 @@ export const projects = [
 
   {
     id: 0,
-    title: "Threads",
-    date: "June 2024",
+    title: "Relay",
+    date: "June 2024 - Aug 2026",
     description:
-      " A threads app is a platform for real-time communication, allowing users to create and participate in conversation threads.",
+      "A full-stack social platform (threads, organizations, likes, comments, shares) split into three TypeScript deployables — a Next.js 14 App Router web app, an Express 5 API, and a long-running Node worker — because Server-Sent Events and background loops cannot survive on serverless. Live notifications stream over SSE backed by Redis Pub/Sub, while Redis Streams consumer groups plus a transactional outbox guarantee at-least-once fan-out from MongoDB multi-document transactions. Ships networkless Clerk JWT verification, Zod-validated requests with rate limiting, request-id correlated JSON logs with /healthz /readyz /metrics, 79 Vitest + Supertest tests that need no live infrastructure, and a Docker image per service.",
     image:
-      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202024-08-13%20224810.png?raw=true",
-    tags: ["Next js, MoongoDb, Clerk, shadcn-ui"],
+      "https://opengraph.githubassets.com/1/AYUSH-148/Relay",
+    tags: ["TypeScript", "Next.js 14", "Express", "Redis Streams", "MongoDB", "Clerk", "Docker"],
     category: "web app",
-    github: "https://github.com/AYUSH-148/threads",
-    webapp: "https://threads-mauve-one.vercel.app/",
+    github: "https://github.com/AYUSH-148/Relay",
+    webapp: "https://relay-service-one.vercel.app/",
     member: [
       {
         name: "Ayush Negi",
@@ -384,20 +398,6 @@ export const projects = [
     github: "https://github.com/AYUSH-148/DNS-Query-Parser",
     webapp: "",
   },
-   {
-    id: 4,
-    title: "FriendZone",
-    date: "Dec 2024",
-    description:
-      "A real-time application with friend request and messaging features using WebSockets via Pusher for instant communication, and Redis for both data storage and caching to ensure low-latency message delivery.  ",
-    image:
-      "https://github.com/AYUSH-148/Assets-Images/blob/main/Screenshot%202025-08-14%20234722.png?raw=true",
-    tags: ["Next.js", "Redis", "Pusher"],
-    category: "",
-    github: "https://github.com/AYUSH-148/RealTime_ChatApp",
-    webapp: "https://friendzone-chatt.vercel.app",
-  },
-   
 
   {
     id: 2,
